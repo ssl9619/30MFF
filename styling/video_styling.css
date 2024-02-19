@@ -1,0 +1,161 @@
+/* Defining the standard for the elements in the body */
+body {
+
+    background-color: rgb(24, 24, 24);
+    font-size: 32px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+
+}
+
+/* The top purple part of the website page */
+.banner {
+
+    background-color:57068c;
+    width: 100%;
+    height: 80px;
+
+    /* Makes the cool effect around the border */
+    border: white;
+    border-bottom: 4mm ridge rgba(255, 255, 255, 0.6);
+
+}
+
+.banner_contact_us {
+
+    background-color:57068c;
+    width: 100%;
+    height: 80px;
+
+    /* Makes the cool effect around the border */
+    border: white;
+    padding-bottom: 20px;
+    border-top: 4mm ridge rgba(255, 255, 255, 0.6);
+
+}
+
+.banner_elements {
+
+    color: white;
+    font-size: 16px;
+
+}
+
+#website_title {
+
+    color: white;
+
+    font-size: 32px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    padding: 20px;
+    text-align: left;
+
+}
+
+#subheading {
+
+    color: rgba(255, 255, 255, 0.6);
+
+    font-size: 32px;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    margin-left: 10px;
+
+    text-align: left;
+
+}
+
+/* Anchor tag, when active (i.e. when clicked)*/
+
+a {
+
+    text-decoration: none;
+
+}
+
+a:active {
+
+    text-decoration: none;
+
+}
+
+
+/* Class for any elements surrounding the video */
+.video_elements {
+
+    background-color: black;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+/* Class specifically for videos in general */
+video {
+
+    /* Used to center the video */
+    display: block;
+    margin: 0 auto;
+    
+    /* Rounded corners */
+    border-radius: 10px; 
+    overflow: hidden; 
+
+}
+
+/* All elements below the video, not including the behind the scenes footage or the Q/A */
+.video_description_elements {
+
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 16px;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+
+.video_title {
+
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+#video_date_posted {
+
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    font-style: italic;
+    text-align: right;
+    margin-left: 0;
+
+}
+
+#video_text_description {
+
+    padding-top: 10px;
+    padding-right: 50%;
+    text-align: justify;
+
+}
+
+.behind_the_scenes {
+
+    font-size: 18px;
+    padding-top: 0px;
+    padding-left: 50%;
+    padding-right: 10%;
+    text-align: right;
+    
+
+}
+
+#link {
+
+    text-decoration: none;
+
+}
